@@ -3,9 +3,9 @@ import React,{ Component } from 'react';
 import Person from './Person/Person';
 
 class Persons extends Component {
-  getDerivedStateFromProps(props, state){
-    console.log('person.js getDErivedstateform props');
-  }
+  // getDerivedStateFromProps(props, state){
+  //   console.log('person.js getDErivedstateform props');
+  // }
   shouldComponentUpdate(pnextProps, nextState){
     console.log('person.js shouldComponentUpdate');
   }
