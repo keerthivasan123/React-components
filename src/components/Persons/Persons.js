@@ -15,6 +15,9 @@ class Persons extends Component {
   componentDidUpdate() {
     console.log('persons.js componentDidUpdate');
   }
+  componentWillMount() {
+    console.log('persons.js component will unmonut');
+  }
   render(){
     console.log('[Persons.js] rendering...');
     return this.props.persons.map((person, index) => {
